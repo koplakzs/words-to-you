@@ -65,7 +65,7 @@ module.exports = {
       },
       borderRadius: {
         xl: "calc(var(--radius) + 4px)",
-        lg: "var(--radius)",
+        lg: "10px",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
         base: "5px",
@@ -107,6 +107,9 @@ module.exports = {
       fontWeight: {
         base: "500",
         heading: "700",
+      },
+      minHeight: {
+        withFooter: `calc(100vh - 66px)`,
       },
     },
   },

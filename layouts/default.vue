@@ -5,9 +5,9 @@ import Navigation from '~/components/Navigation.vue';
 </script>
 
 <template>
-    <div class="min-h-screen bg-bg">
+    <div class=" bg-bg">
         <Navigation />
-        <div class="py-24 px-10">
+        <div class="py-24 px-10 min-h-withFooter">
             <slot />
         </div>
         <Footer />
