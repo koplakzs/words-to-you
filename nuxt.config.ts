@@ -14,4 +14,9 @@ export default defineNuxtConfig({
      */
     componentDir: "./components/ui",
   },
+  runtimeConfig: {
+    public: {
+      apiBaseUrl: process.env.API_URL,
+    },
+  },
 });
